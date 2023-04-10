@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- <base href="/"> -->
+
+  <title>
+    
+  </title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="icon" href="images/favicon.png">
+  <meta property="og:image" content="images/dist/preview.jpg">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="flex">
+        <div class="col">
+          <div class="header-left">
+            <div class="social">
+              <a href="#">
+                <img src="img/dist/instagram.svg" alt="">
+              </a>
+            </div>
+            <div class="lang">
+              <span>Eng <img class="arrow" src="img/dist/lang-arrow.svg" alt=""></span>
+              <ul>
+                <li><a href="#">Eng</a></li>
+                <li><a href="#">Eng</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="logo">
+            <a href="/">
+              <img src="img/dist/h-small-logo.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="header-flex">
+            <div class="login-block">
+              <div class="login-user">
+                <div class="icon"><img src="img/dist/user-icon.svg" alt=""></div>
+                <div class="uer-link"><a href="">Hello Ivan</a></div>
+                <div class="divider">|</div>
+                <div class="logout-link">
+                  <a href="">Go out</a>
+                </div>
+              </div>
+            </div>
+            <div class="book-btn">
+              <a href="">Book now</a>
+            </div>
+            <div class="btn-menu">
+              <div class="burger"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="menu-block">
+    <div class="nav-menu">
+      <ul>
+        <li><a href="">Book now</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="">Booking</a></li>
+        <li><a href="gift.html">Gift certificates</a></li>
+        <li><a href="">Personal office</a></li>
+        <li><a href="about.html">About Spartisan</a></li>
+      </ul>
+    </div>
+    <div class="login-menu">
+      <ul>
+        <li><a class="popup-btn" data-effect="mfp-zoom-in" href="#popup1">Log in</a></li>
+        <li><a class="popup-btn" data-effect="mfp-zoom-in" href="#popup2">Sign up</a></li>
+      </ul>
+    </div>
+
+    <div class="login-block">
+      <div class="login-user">
+        <div class="icon"><img src="img/dist/user-icon.svg" alt=""></div>
+        <div class="uer-link"><a href="">Hello Ivan</a></div>
+        <div class="divider">|</div>
+        <div class="logout-link">
+          <a href="">Go out</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <main class="main">
+
+
+    <section class="cabinet">
+      <div class="container">
+        <div class="title">
+          <h2><span>Personal <strong>Area</strong></span></h2>
+        </div>
+
+        <ul class="tab-menu">
+          <li data-tab="tab1" class="active">Personal Area</li>
+          <li data-tab="tab2">Club card</li>
+          <li data-tab="tab3">Booking history</li>
+        </ul>
+
+        <div id="tab1" class="tab-content active">
+          <form id="cabinet-form" action="">
+            <div class="cabinet-form">
+              <div class="col">
+                <div class="input-item">
+                  <input type="text" name="name" value="Ivan">
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-item">
+                  <input type="text" name="lastname" value="Petrow">
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-item">
+                  <input type="tel" name="phone" value="+38 (000) 000-98-24">
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-item">
+                  <input type="email" name="email" value="info@gmail.com">
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-item">
+                  <input type="text" class="date-mask" name="date" value="05.12.1990">
+                </div>
+              </div>
+              <div class="col">
+              </div>
+              <div class="col">
+                <div class="input-item">
+                  <input type="password" name="oldpass" placeholder="Old password">
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-item">
+                  <input type="password" name="newpass" placeholder="New password">
+                </div>
+              </div>
+              <div class="col">
+                <div class="input-item">
+                  <input type="password" name="repass" placeholder="New password again">
+                </div>
+              </div>
+              <div class="col">
+                <button class="btn">Save <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+
+
+
+        <div id="tab2" class="tab-content">
+
+          <div class="card-block">
+
+            <div class="top-flex">
+              <div class="col-4">
+                <div class="balance">Your balance: <span>10 visits</span></div>
+                <div class="date">Last enrollment was <span>03.23.2023</span>
+                </div>
+                <div class="card-num">Сlub card: <span>00001</span></div>
+              </div>
+              <div class="col-8">
+                <div class="form-title">Replenishment of the club card</div>
+                <form id="card-form" action="">
+                  <div class="form-block">
+                    <div class="input-item">
+                      <input type="text" name="number" placeholder="Number of visits">
+                    </div>
+                    <button class="btn">buy now <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="table-title">Top-up history</div>
+            <div class="card-table">
+              <div class="table-th">
+                <div class="flex">
+                  <div class="col-2">
+                    <div class="title date-title">Data</div>
+                  </div>
+                  <div class="col-3">
+                    <div class="title">Quantity</div>
+                  </div>
+                  <div class="col-2">
+                    <div class="title">Sum</div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-th">
+                <div class="flex">
+                  <div class="col-2">
+                    <div class="text text-date">23.12.2022</div>
+                  </div>
+                  <div class="col-3">
+                    <div class="text">5 visits</div>
+                  </div>
+                  <div class="col-2">
+                    <div class="text text-sum">€ 200</div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-th">
+                <div class="flex">
+                  <div class="col-2">
+                    <div class="text text-date">23.12.2022</div>
+                  </div>
+                  <div class="col-3">
+                    <div class="text">5 visits</div>
+                  </div>
+                  <div class="col-2">
+                    <div class="text text-sum">€ 200</div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-th">
+                <div class="flex">
+                  <div class="col-2">
+                    <div class="text text-date">23.12.2022</div>
+                  </div>
+                  <div class="col-3">
+                    <div class="text">5 visits</div>
+                  </div>
+                  <div class="col-2">
+                    <div class="text text-sum">€ 200</div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-th">
+                <div class="flex">
+                  <div class="col-2">
+                    <div class="text text-date">23.12.2022</div>
+                  </div>
+                  <div class="col-3">
+                    <div class="text">5 visits</div>
+                  </div>
+                  <div class="col-2">
+                    <div class="text text-sum">€ 200</div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-th">
+                <div class="flex">
+                  <div class="col-2">
+                    <div class="text text-date">23.12.2022</div>
+                  </div>
+                  <div class="col-3">
+                    <div class="text">5 visits</div>
+                  </div>
+                  <div class="col-2">
+                    <div class="text text-sum">€ 200</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab3" class="tab-content">
+          <div class="book-history">
+            <div class="h-top">
+              <div class="col-2">
+                <div class="title date-title">Data</div>
+              </div>
+              <div class="col-2">
+                <div class="title">Number of people</div>
+              </div>
+              <div class="col-3">
+                <div class="title">Service</div>
+              </div>
+              <div class="col-3">
+                <div class="title">Procedure time</div>
+              </div>
+              <div class="col-2">
+                <div class="title">Sum</div>
+              </div>
+            </div>
+            <div class="h-inner">
+              <div class="h-info">
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Data</div>
+                    <div class="text date-text">23.12.2022</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Number of people</div>
+                    <div class="text">2</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Service</div>
+                    <div class="text">"Deep delight"</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Procedure time</div>
+                    <div class="text">180 minutes</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Sum</div>
+                    <div class="text text-sum">€ 100</div>
+                  </div>
+                </div>
+              </div>
+              <div class="h-info">
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Data</div>
+                    <div class="text date-text">23.12.2022</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Number of people</div>
+                    <div class="text">2</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Service</div>
+                    <div class="text">"Deep delight"</div>
+                  </div>
+                  <div class="info">
+                    <div class="title">Service</div>
+                    <div class="text">Warming up with brooms</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Procedure time</div>
+                    <div class="text">180 minutes</div>
+                  </div>
+                  <div class="info">
+                    <div class="title">Procedure time</div>
+                    <div class="text">10 minutes</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Sum</div>
+                    <div class="text text-sum">€ 100</div>
+                  </div>
+                </div>
+              </div>
+              <div class="h-info">
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Data</div>
+                    <div class="text date-text">23.12.2022</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Number of people</div>
+                    <div class="text">2</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Service</div>
+                    <div class="text">"Deep delight"</div>
+                  </div>
+
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Procedure time</div>
+                    <div class="text">180 minutes</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Sum</div>
+                    <div class="text text-sum">€ 100</div>
+                  </div>
+                </div>
+              </div>
+              <div class="h-info">
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Data</div>
+                    <div class="text date-text">23.12.2022</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Number of people</div>
+                    <div class="text">2</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Service</div>
+                    <div class="text">"Deep delight"</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Procedure time</div>
+                    <div class="text">180 minutes</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Sum</div>
+                    <div class="text text-sum">€ 100</div>
+                  </div>
+                </div>
+              </div>
+              <div class="h-info">
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Data</div>
+                    <div class="text date-text">23.12.2022</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Number of people</div>
+                    <div class="text">2</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Service</div>
+                    <div class="text">"Deep delight"</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Procedure time</div>
+                    <div class="text">180 minutes</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Sum</div>
+                    <div class="text text-sum">€ 100</div>
+                  </div>
+                </div>
+              </div>
+              <div class="h-info">
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Data</div>
+                    <div class="text date-text">23.12.2022</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Number of people</div>
+                    <div class="text">2</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Service</div>
+                    <div class="text">"Deep delight"</div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="info">
+                    <div class="title">Procedure time</div>
+                    <div class="text">180 minutes</div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="info">
+                    <div class="title">Sum</div>
+                    <div class="text text-sum">€ 100</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <div class="map-block">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162757.725827263!2d30.392608563953132!3d50.40217023845008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2sKyiv%2C%2002000!5e0!3m2!1sen!2sua!4v1680874800806!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<footer class="footer">
+
+	<div class="container">
+		<div class="flex">
+			<div class="logo">
+				<a href="/">
+					<img src="img/dist/logo.svg" alt="">
+				</a>
+			</div>
+			<div class="nav-menu">
+				<ul>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="about.html">About Spartisan</a></li>
+					<li><a href="gift.html">Gift certificates</a></li>
+					<li><a href="">Booking</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<div id="popup1" class="white-popup mfp-hide popup-block mfp-with-anim">
+
+	<h3>Authorization</h3>
+
+	<form id="login">
+		<div class="form-block">
+			<div class="input-item">
+				<input type="text" name="email" placeholder="E-mail">
+			</div>
+			<div class="input-item">
+				<input type="password" name="password" placeholder="Password">
+			</div>
+			<div class="flex-btn">
+				<button class="btn">Entrance <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+			</div>
+		</div>
+	</form>
+
+	<div class="close-popup">
+		<img src="img/dist/close.svg" alt="">
+	</div>
+</div>
+
+<div id="popup2" class="white-popup mfp-hide popup-block mfp-with-anim">
+
+	<h3>Registration</h3>
+
+	<form id="register" method="POST">
+		<div class="form-block">
+			<div class="input-item">
+				<input type="text" name="email" placeholder="E-mail">
+			</div>
+			<div class="input-item">
+				<input type="password" name="password" placeholder="Password">
+			</div>
+			<div class="flex-btn">
+				<button class="btn">Register <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+			</div>
+		</div>
+	</form>
+
+	<div class="close-popup">
+		<img src="img/dist/close.svg" alt="">
+	</div>
+</div>
+
+
+<div id="popup3" class="white-popup mfp-hide popup-block mfp-with-anim">
+
+	<h3>Password recovery</h3>
+
+	<form id="recovery" action="">
+		<div class="form-block">
+			<div class="input-item">
+				<input type="text" name="email" placeholder="E-mail">
+			</div>
+			<div class="email-text">We will send you your password to this email</div>
+			<div class="flex-btn">
+				<button class="btn">Entrance <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+			</div>
+		</div>
+	</form>
+
+	<div class="close-popup">
+		<img src="img/dist/close.svg" alt="">
+	</div>
+</div>
+
+
+<script src="js/app.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="js/query-ui.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

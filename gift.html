@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>
+		Home page
+	</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="flex">
+				<div class="col">
+					<div class="header-left">
+						<div class="social">
+							<a href="#">
+								<img src="img/dist/instagram.svg" alt="">
+							</a>
+						</div>
+						<div class="lang">
+							<span>Eng <img class="arrow" src="img/dist/lang-arrow.svg" alt=""></span>
+							<ul>
+								<li><a href="#">Eng</a></li>
+								<li><a href="#">Eng</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="logo">
+						<a href="/">
+							<img src="img/dist/h-small-logo.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col">
+					<div class="header-flex">
+						<div class="book-btn">
+							<a href="">Book now</a>
+						</div>
+						<div class="btn-menu">
+							<div class="burger"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="menu-block">
+		<div class="nav-menu">
+			<ul>
+				<li><a href="">Book now</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="">Booking</a></li>
+				<li><a href="gift.html">Gift certificates</a></li>
+				<li><a href="">Personal office</a></li>
+				<li><a href="about.html">About Spartisan</a></li>
+			</ul>
+		</div>
+		<div class="login-menu">
+			<ul>
+				<li><a class="popup-btn" data-effect="mfp-zoom-in" href="#popup1">Log in</a></li>
+				<li><a class="popup-btn" data-effect="mfp-zoom-in" href="#popup2">Sign up</a></li>
+			</ul>
+		</div>
+
+		<div class="login-block">
+			<div class="login-user">
+				<div class="icon"><img src="img/dist/user-icon.svg" alt=""></div>
+				<div class="uer-link"><a href="">Hello Ivan</a></div>
+				<div class="divider">|</div>
+				<div class="logout-link">
+					<a href="">Go out</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+<main class="main">
+
+  <section class="gift-top">
+    <div class="container">
+      <div class="title">
+        <h2><span>Gift <strong>Vouchers</strong></span></h2>
+      </div>
+      <div class="flex">
+        <div class="content">
+          <h3>THE BATHHOUSE GIFT VOUCHER: <strong>UNIQUE GIFT!</strong></h3>
+          <p>Whether you are looking for the ideal present for your friend, a parting gift for a colleague or the perfect Christmas present for your friends and family, the bathhouse gift card is a definite crowd-pleaser. Our bathhouse gift cards are valid for one year.</p>
+          <div class="bottom-content">
+            <h3>BUY A GIFT VOUCHER</h3>
+            <p>Your gift card will be sent to you by email you will have the choice to forward the email or to print the Gift</p>
+            <p>Card (pdf format). No email will be sent to the beneficiary.</p>
+          </div>
+        </div>
+        <div class="image object-fit">
+          <img src="img/dist/gift-img.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gift-order">
+    <div class="container">
+
+      <h2>three reasons TO BUY THE GIFT VOUCHER CARD</h2>
+      <div class="flex">
+        <div class="col">
+          <div class="gift-item">
+            <div class="number">01</div>
+            <p><strong>An original gift:</strong> The bathhouse gift voucher is a unique gift by definition</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gift-item">
+            <div class="number">02</div>
+            <p><strong>Guaranteed success:</strong> A gift that is sure to please</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gift-item">
+            <div class="number">03</div>
+            <p><strong>Easy-to-use:</strong> Just one code to enter when booking your bathhouse session online</p>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+
+      <form id="gift-form" action="">
+        <div class="gift-form">
+          <div class="flex-top">
+            <div class="check-items">
+              <div class="check-block">
+                <input id="radio1" name="price" checked type="radio">
+                <label for="radio1">€ 50</label>
+              </div>
+              <div class="check-block">
+                <input id="radio2" name="price" type="radio">
+                <label for="radio2">€ 100</label>
+              </div>
+              <div class="check-block">
+                <input id="radio3" name="price" type="radio">
+                <label for="radio3">€ 150</label>
+              </div>
+              <div class="check-block">
+                <input id="radio4" name="price" type="radio">
+                <label for="radio4">€ 200</label>
+              </div>
+              <div class="check-block">
+                <input id="radio5" name="price" type="radio">
+                <label for="radio5">€ 250</label>
+              </div>
+            </div>
+            <div class="custom-amount">
+              <div class="check-block">
+                <input class="check-amount" id="check1" type="checkbox">
+                <label class="add-amount" for="check1">Custom amount</label>
+              </div>
+              <div class="amount-field">
+                <input type="text" class="amount-input" name="amount" disabled placeholder="Your amount">
+              </div>
+            </div>
+          </div>
+          <div class="flex-bottom">
+            <div class="col">
+              <div class="input-item">
+                <input type="text" name="name" placeholder="Name">
+              </div>
+              <div class="input-item">
+                <input type="tel" name="phone" placeholder="Phone">
+              </div>
+              <div class="input-item">
+                <input type="email" name="email" placeholder="E-mail">
+              </div>
+            </div>
+            <div class="col">
+              <div class="input-item">
+                <textarea name="text" placeholder="Text"></textarea>
+              </div>
+            </div>
+          </div>
+          <button class="btn">Order <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+
+<div class="map-block">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162757.725827263!2d30.392608563953132!3d50.40217023845008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2sKyiv%2C%2002000!5e0!3m2!1sen!2sua!4v1680874800806!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<footer class="footer">
+
+	<div class="container">
+		<div class="flex">
+			<div class="logo">
+				<a href="/">
+					<img src="img/dist/logo.svg" alt="">
+				</a>
+			</div>
+			<div class="nav-menu">
+				<ul>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="about.html">About Spartisan</a></li>
+					<li><a href="gift.html">Gift certificates</a></li>
+					<li><a href="">Booking</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<div id="popup1" class="white-popup mfp-hide popup-block mfp-with-anim">
+
+	<h3>Authorization</h3>
+
+	<form id="login">
+		<div class="form-block">
+			<div class="input-item">
+				<input type="text" name="email" placeholder="E-mail">
+			</div>
+			<div class="input-item">
+				<input type="password" name="password" placeholder="Password">
+			</div>
+			<div class="flex-btn">
+				<button class="btn">Entrance <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+			</div>
+		</div>
+	</form>
+
+	<div class="close-popup">
+		<img src="img/dist/close.svg" alt="">
+	</div>
+</div>
+
+<div id="popup2" class="white-popup mfp-hide popup-block mfp-with-anim">
+
+	<h3>Registration</h3>
+
+	<form id="register" method="POST">
+		<div class="form-block">
+			<div class="input-item">
+				<input type="text" name="email" placeholder="E-mail">
+			</div>
+			<div class="input-item">
+				<input type="password" name="password" placeholder="Password">
+			</div>
+			<div class="flex-btn">
+				<button class="btn">Register <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+			</div>
+		</div>
+	</form>
+
+	<div class="close-popup">
+		<img src="img/dist/close.svg" alt="">
+	</div>
+</div>
+
+
+<div id="popup3" class="white-popup mfp-hide popup-block mfp-with-anim">
+
+	<h3>Password recovery</h3>
+
+	<form id="recovery" action="">
+		<div class="form-block">
+			<div class="input-item">
+				<input type="text" name="email" placeholder="E-mail">
+			</div>
+			<div class="email-text">We will send you your password to this email</div>
+			<div class="flex-btn">
+				<button class="btn">Entrance <img class="arrow" src="img/dist/btn-arrow.svg" alt=""></button>
+			</div>
+		</div>
+	</form>
+
+	<div class="close-popup">
+		<img src="img/dist/close.svg" alt="">
+	</div>
+</div>
+
+
+<script src="js/app.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="js/query-ui.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
