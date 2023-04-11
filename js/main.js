@@ -126,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   $(".add-amount").click(function () {
     $(".amount-input").removeAttr("disabled");
+    $(".amount-input").focus();
     $(".check-items input").prop('checked', false);
   });
 
